@@ -1,0 +1,15 @@
+form.question{
+    font-family: fantasy;
+    color: darkgreen;
+}
+
+#comment{
+    resize: none;
+    font-family: cursive;
+    background-color: beige;
+    color: green;
+}
+
+input:required{
+    background-color:blanchedalmond;
+}

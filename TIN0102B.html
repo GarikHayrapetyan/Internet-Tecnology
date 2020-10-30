@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Questionnaire</title>
+    <link rel="stylesheet" href="TIN0102D.css">
+</head>
+<body>
+<form action="/action_page.php" method="get" class="question">
+    <fieldset>    
+        <legend>Personal Data</legend>
+        <p><input type="text" placeholder="Name" required></p>
+        <p><input type="password" placeholder="Password" required></p>
+    </fieldset>
+    
+    <fieldset>
+    <legend>Interests</legend>
+    <p>
+        <label><input type="checkbox"> Sport</label>
+        <label><input type="checkbox" disabled> Game</label>
+        <label><input type="checkbox"> Reading</label>
+    </p>
+    </fieldset>
+
+<p>Is the time expensive? </p>
+
+<p>
+<label><input type="radio" name="time" value="Yes" checked> Yes</label>
+<label><input type="radio" name="time" value="No"> No</label>
+</p>
+
+<p>How many hours do you work daily?</p>
+
+<p>
+	<select multiple>
+    	<option>4</option>
+        <option>8</option>
+        <option>12</option>
+        <option>12+</option>
+    </select>
+</p>
+
+
+<p>Your opinion about the coronavirus</p>
+<p><textarea rows="10" cols="50" id="comment"></textarea></p>
+
+
+	<input type="reset" value="Reset">
+    <input type="submit" value="Submit">
+
+</form>
+</body>
+</html>

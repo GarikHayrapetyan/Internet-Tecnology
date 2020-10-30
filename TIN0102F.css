@@ -1,0 +1,63 @@
+.main{
+    width: 70%;
+    margin: 0 auto;  
+    border: 2px ridge;
+    padding: 0 10px 0 10px;
+    box-sizing: border-box;
+    background-color: #F3F3F3;
+}
+
+#header{
+    width: 80%;
+    height: 200px;
+    margin: 20px auto;
+    padding: 5px;
+    border: 2px groove black;
+    text-align: center;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+
+.main article{
+    width: 70%;
+    box-sizing: border-box;
+    margin: 20px auto;
+    padding: 30px;
+    border: 2px groove;
+    text-align: left;
+    background-color: white;
+    font-size: 20px;
+}
+
+h1,h2{
+    font-family:cursive;    
+    border-bottom: 5px double black;
+    border-left: 5px double black;
+    margin-left: 10px;
+    padding-left: 15px;      
+}
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: gray;
+}
+
+a:hover{
+    color: green;
+}
+
+a:active{
+    color: brown;
+}
+
+
+
+
+

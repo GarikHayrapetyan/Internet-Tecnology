@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+#fimg{
+    float: left;
+    margin-right: 10px;
+}
+
+#cimg{
+    clear: both;
+}
